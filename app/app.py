@@ -9,7 +9,6 @@ from datetime import datetime
 from pytz import timezone
 
 # local
-from security import authenticate, identity
 from users.controllers import *
 from emails.controllers import *
 from utils import * # includes flask_marshmallow, flask_sqlalchemy, celery
